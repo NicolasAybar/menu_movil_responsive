@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+/* importamos las fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+*{
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+.inicio{
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3));
+    background-size:cover;
+    background-position:center center;
+    color:#fff;
+    position: fixed; /* o absolute */  
+    top: 0;  
+    left: 0;
+}
+.inicio .contenido-seccion{
+    
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+
+.nav{
+    position:fixed;
+    margin-left:60px;
+    background-color:#940253;
+    padding:15px;
+    border-radius:10px;
+    text-align:left;
+    z-index:99;
+    display:none;
+}
+.nav a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+.logo{
+    font-weight:bold;
+    font-size:2.5rem;
+    font-family:"yellowtail";
+    text-shadow:0 0 35px #fff;
+}
+.logop{
+    color:#940253;
+    font-family:"yellowtail";
+}
+.nav-bar{
+    position:fixed;
+    background-color:#940253;
+    font-size:20px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    line-height:50px;
+    cursor:pointer;
+    transition:.3s;
+}
+.nav-bar:hover{
+    box-shadow:0 0 35px #fff;
+}
